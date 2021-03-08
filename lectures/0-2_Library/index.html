@@ -19,7 +19,7 @@
     
     
       
-        <title>Ex00: 演習準備 - Image ProcessingとComputer Graphicsの講義資料</title>
+        <title>0.2. 利用する主なライブラリ - Image ProcessingとComputer Graphicsの講義資料</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ex00" class="md-skip">
+        <a href="#02" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -92,7 +92,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Ex00: 演習準備
+              0.2. 利用する主なライブラリ
             
           </span>
         </div>
@@ -170,17 +170,17 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
     
     <label class="md-nav__link" for="nav-1">
-      準備
+      SetUp
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
       </span>
     </label>
-    <nav class="md-nav" aria-label="準備" data-md-level="1">
+    <nav class="md-nav" aria-label="SetUp" data-md-level="1">
       <label class="md-nav__title" for="nav-1">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
         </span>
-        準備
+        SetUp
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -191,8 +191,20 @@
 
 
   <li class="md-nav__item">
-    <a href="." title="Ex00: 演習準備" class="md-nav__link">
-      Ex00: 演習準備
+    <a href="../0-1_Introduction" title="0.1. はじめに" class="md-nav__link">
+      0.1. はじめに
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="." title="0.2. 利用する主なライブラリ" class="md-nav__link">
+      0.2. 利用する主なライブラリ
     </a>
   </li>
 
@@ -212,17 +224,17 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
-      画像処理
+      Image Processing
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
       </span>
     </label>
-    <nav class="md-nav" aria-label="画像処理" data-md-level="1">
+    <nav class="md-nav" aria-label="Image Processing" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
         </span>
-        画像処理
+        Image Processing
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -241,6 +253,18 @@
         
       </ul>
     </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Computer Graphics" title="None" class="md-nav__link">
+      None
+    </a>
   </li>
 
     
@@ -270,23 +294,30 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#colab" class="md-nav__link">
-    Colab 課題
+  <a href="#21-import" class="md-nav__link">
+    2.1. ライブラリの import
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    プログラミング環境について
+    各ライブラリの機能について
   </a>
   
-    <nav class="md-nav" aria-label="プログラミング環境について">
+    <nav class="md-nav" aria-label="各ライブラリの機能について">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    利用する主なライブラリ
+  <a href="#numpy" class="md-nav__link">
+    NumPyで使う主な機能
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opencv" class="md-nav__link">
+    OpenCVで使う主な機能
   </a>
   
 </li>
@@ -312,27 +343,136 @@
                   
                 
                 
-                <h1 id="ex00">Ex00: 演習準備<a class="headerlink" href="#ex00" title="Permanent link">&para;</a></h1>
-<h2 id="colab">Colab 課題<a class="headerlink" href="#colab" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://colab.research.google.com/drive/15nZyselWE-OH0kLNumEHWyieUWD9do-H?usp=sharing" target="_blank">ex00: 演習準備</a></li>
-</ul>
-<h2 id="_1">プログラミング環境について<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>プログラミング言語は Python，プログラミング環境は Web 上で Python を実行できる
-<a href="https://colab.research.google.com/?hl=ja">Google Colaboratory</a> を利用します．</p>
-<p>Google Colab を利用することで</p>
-<ul>
-<li>必要なライブラリが揃った状態ですぐプログラミングを始められる</li>
-<li>ノートブック形式の分かりやすいプログラミング環境</li>
-<li>ファイルを簡単にアップロード／ダウンロード</li>
-</ul>
-<h3 id="_2">利用する主なライブラリ<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+                <h1 id="02">0.2. 利用する主なライブラリ<a class="headerlink" href="#02" title="Permanent link">&para;</a></h1>
+<p>この演習で使う主なライブラリは以下の 3 つになります．</p>
 <ul>
 <li><a href="https://numpy.org/">NumPy</a>: 数値計算用ライブラリ</li>
 <li><a href="https://opencv.org/">OpenCV</a>: 画像処理用ライブラリ</li>
 <li><a href="https://matplotlib.org/">Maplotlib</a>: 図表の出力</li>
 </ul>
-<p>上記のライブラリは Python の中でもよく使うライブラリで，Web 上にいろんな参考文献があるのでぜひ遊んでみてください．</p>
+<p>上記のライブラリは Python の中でもよく使われるライブラリなので，
+Colab 上でもデフォルトでインストールされています．</p>
+<h2 id="21-import">2.1. ライブラリの import<a class="headerlink" href="#21-import" title="Permanent link">&para;</a></h2>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="c1"># NumPyのImport</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="c1"># OpenCVのImport</span>
+<span class="kn">import</span> <span class="nn">cv2</span>
+
+<span class="c1"># MatplotlibのImport</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</code></pre></div>
+</td></tr></table>
+
+<p>上記の import 文は，スニペットにも登録されていて，
+「import num...」と打っていくと，自動で変換候補が出てきます．</p>
+<p>演習用の Colab ノートブックでも上記ライブラリの import を冒頭で行っていますので確認してみてください．</p>
+<h2 id="_1">各ライブラリの機能について<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>詳細は各演習用のColabノートブックでも確認ですが，それぞれのライブラリの知識はあるに越したことはないです．</p>
+<h3 id="numpy">NumPyで使う主な機能<a class="headerlink" href="#numpy" title="Permanent link">&para;</a></h3>
+<h4>行列・配列の初期化</h4>
+<p>この辺りは良く使います．</p>
+<ul>
+<li>np.zeros: 0で初期化</li>
+<li>np.ones: 1で初期化</li>
+<li>np.random.rand: 0～1のランダム要素で初期化</li>
+</ul>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="c1"># (4, 3)サイズで全ての要素が0の行列の作成</span>
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;A=</span><span class="se">\n</span><span class="si">{0}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>
+
+<span class="c1"># (4, 3)サイズで全ての要素が0の行列の作成</span>
+<span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">((</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;B=</span><span class="se">\n</span><span class="si">{0}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">B</span><span class="p">))</span>
+
+<span class="c1"># (4, 3)サイズのランダム要素の行列の作成</span>
+<span class="n">C</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;C=</span><span class="se">\n</span><span class="si">{0}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">C</span><span class="p">))</span>
+</code></pre></div>
+</td></tr></table>
+
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="nv">A</span><span class="o">=</span>
+<span class="o">[[</span><span class="m">0</span>. <span class="m">0</span>. <span class="m">0</span>.<span class="o">]</span>
+ <span class="o">[</span><span class="m">0</span>. <span class="m">0</span>. <span class="m">0</span>.<span class="o">]</span>
+ <span class="o">[</span><span class="m">0</span>. <span class="m">0</span>. <span class="m">0</span>.<span class="o">]</span>
+ <span class="o">[</span><span class="m">0</span>. <span class="m">0</span>. <span class="m">0</span>.<span class="o">]]</span>
+
+<span class="nv">B</span><span class="o">=</span>
+<span class="o">[[</span><span class="m">1</span>. <span class="m">1</span>. <span class="m">1</span>.<span class="o">]</span>
+ <span class="o">[</span><span class="m">1</span>. <span class="m">1</span>. <span class="m">1</span>.<span class="o">]</span>
+ <span class="o">[</span><span class="m">1</span>. <span class="m">1</span>. <span class="m">1</span>.<span class="o">]</span>
+ <span class="o">[</span><span class="m">1</span>. <span class="m">1</span>. <span class="m">1</span>.<span class="o">]]</span>
+
+<span class="nv">C</span><span class="o">=</span>
+<span class="o">[[</span><span class="m">0</span>.57275765 <span class="m">0</span>.33025486 <span class="m">0</span>.20322774<span class="o">]</span>
+ <span class="o">[</span><span class="m">0</span>.91332262 <span class="m">0</span>.9896137  <span class="m">0</span>.70199953<span class="o">]</span>
+ <span class="o">[</span><span class="m">0</span>.66024673 <span class="m">0</span>.98784976 <span class="m">0</span>.08905549<span class="o">]</span>
+ <span class="o">[</span><span class="m">0</span>.67136278 <span class="m">0</span>.35980381 <span class="m">0</span>.33525307<span class="o">]]</span>
+</code></pre></div>
+</td></tr></table>
+
+<p>また，画像を作成する際は，(h, w, cs)の順番になります．</p>
+<ul>
+<li>h: 画像の高さ</li>
+<li>w: 画像の幅</li>
+<li>cs: チャンネル数</li>
+</ul>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">I</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">90</span><span class="p">,</span> <span class="mi">160</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+</code></pre></div>
+</td></tr></table>
+
+<p>上記のコードは，幅: 160, 高さ: 90, チャンネル数: 3(RGB等標準)の画像を作っていることに相当します．</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>幅，高さ，チャンネル数</strong>ではないので注意しましょう．</p>
+</div>
+<h3 id="opencv">OpenCVで使う主な機能<a class="headerlink" href="#opencv" title="Permanent link">&para;</a></h3>
+<p>これは各演習で確認すればよいと思いますが，</p>
+<ul>
+<li>cv2.imread: 画像の読み込み</li>
+<li>cv2.cvtColor: 色空間の変換</li>
+<li>cv2.GaussianBlur, ...: ガウシアンフィルタなどの各フィルタ関数</li>
+</ul>
+<p>などは頻繁に使います．</p>
                 
               
               
